@@ -1,0 +1,6 @@
+aws_region             = "us-east-1"
+project_name           = "cdn-demo"
+environment            = "demo"
+cloudfront_price_class = "PriceClass_100"  # North America + Europe edge nodes only
+default_ttl            = 86400             # 1 day
+max_ttl                = 31536000          # 1 year
